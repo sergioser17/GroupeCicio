@@ -12,9 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const scrolled = window.scrollY > 60;
     navbar.classList.toggle('scrolled', scrolled);
 
-    // Show CTA button in nav after scrolling past hero
+    // Show CTA button in nav after scrolling past hero (desktop only)
     if (navCta) {
-      navCta.style.display = scrolled ? 'inline-flex' : 'none';
+      if (window.innerWidth > 768) {
+        navCta.style.display = scrolled ? 'inline-flex' : 'none';
+      } else {
+        navCta.style.display = 'none';
+      }
     }
   };
 

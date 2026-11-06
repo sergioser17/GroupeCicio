@@ -1026,7 +1026,12 @@ ul, ol {
   }
 
   .nav-cta {
-    display: none;
+    display: none !important;
+  }
+
+  .navbar-brand .brand-text {
+    font-size: 1.1rem;
+    white-space: nowrap;
   }
 
   .mobile-toggle {
@@ -1042,8 +1047,25 @@ ul, ol {
   }
 
   .hero-stats {
-    flex-wrap: wrap;
-    gap: 1.5rem;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .hero-stat {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .hero-stat .stat-number {
+    font-size: clamp(1.25rem, 5vw, 1.6rem);
+    white-space: nowrap;
+  }
+
+  .hero-stat .stat-label {
+    font-size: clamp(0.7rem, 2.8vw, 0.8rem);
+    line-height: 1.25;
   }
 
   .engagements-grid {
