@@ -85,3 +85,4 @@ npx serve .
 ## 📄 License & Client Rights
 
 All code is developed for client presentation and deployment. Image assets belong to Groupe Cicio.
+
