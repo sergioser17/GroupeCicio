@@ -48,30 +48,8 @@ Cicio_Final_Web/
 ├── robots.txt                 # Search engine crawler directives
 ├── sitemap.xml                # XML sitemap for search engines
 └── README.md                  # Project documentation
+
 ```
-
----
-
-## 🚀 Getting Started Locally
-
-You can run this project locally without any complex build steps or dependencies:
-
-### Option 1: Double-click
-Simply open `index.html` in any modern web browser.
-
-### Option 2: Local HTTP Server (Python)
-```bash
-# From the project root folder
-python -m http.server 5500
-```
-Then navigate to: `http://localhost:5500`
-
-### Option 3: Node.js (npx serve)
-```bash
-npx serve .
-```
-
----
 
 ## 🛠️ Built With
 
